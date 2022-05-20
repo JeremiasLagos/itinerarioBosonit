@@ -1,0 +1,90 @@
+** start of undefined **
+
+<h1 id="title">freeCodeCamp Survey Form</h1>
+<p id="description">Thank you for taking the time to help us improve the platform</p>
+
+<form id="survey-form">
+  <label for="name" id="name-label">Name </label>
+  <input id="name" type="text" name="name" placeholder="Enter your name" required </input>
+</br>
+  <label for="email" id="email-label">Email </label>
+  <input id="email" type="email" name="email" placeholder="Enter your Email" required </input>
+</br>
+<label for="number" id="number-label">Age </label>
+<input id="number" type="number" name="number" placeholder="Age" min="18" max="80" required></input>
+</br>
+</br>
+
+<label for="dropdown" id="model">Which option best describes your current role?</label>
+<select id="dropdown">
+  <option value="role">Student</opion>
+  <option value="role">Full time job</opion>
+  <option value="role">Full time learner</opion>
+  <option value="role">Prefer not to say</opion>
+</select>
+
+</br>
+</br>
+
+<label for="option" id="option">Would you recommend freeCodeCamp to a friend?</label>
+
+</br>
+
+<input id="option" type="radio" id="definitley" name="option" value="definitley">
+<label for="option">Definitely </label>
+
+</br>
+
+<input id="option" type="radio" id="maybe" name="option" value="maybe">
+<label for="option">Maybe </label>
+
+</br>
+
+<input id="option" type="radio" id="definitley" name="option" value="definitley">
+<label for="option">Not sure </label>
+
+</br>
+</br>
+
+<label for="improves"> What would you like to see improved? (Check all that apply) </label>
+
+</br>
+
+<input id="checkbox" type="checkbox" name="improves" value="front-end-projects">
+<label for="checkbox"> Front-end Projects </label>
+</br>
+<input id="checkbox" type="checkbox" name="improves" value="back-end-projects">
+<label for="checkbox"> Back-end Projects </label>
+</br>
+<input id="checkbox" type="checkbox" name="improves" value="Wiki">
+<label for="checkbox"> Wiki </label>
+
+</br>
+</br>
+
+<label id="textarea"> Any comments or suggestions?</label>
+</br>
+<textarea id="textarea" name="comments" rows="7" cols="50" placeholder="Enter your comment here...">
+
+  </textarea>
+
+</br>
+
+<input id="submit" type="submit" value="Submit"
+
+
+
+
+
+
+
+  </form>
+
+** end of undefined **
+
+** start of undefined **
+
+
+
+** end of undefined **
+
