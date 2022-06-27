@@ -1,10 +1,4 @@
-const flasy = (obj, type) => { for( var values in obj) {
-  if (type(obj[values])) {
-    delete obj[values]
-  }
-}
-  return obj
-};
+const toFixed2 = (nFloat, nDecimals) => { 
+  return Math.round(nFloat * (Math.pow(10, nDecimals) ) ) / (Math.pow(10, nDecimals))}
 
-const falsyValues = flasy({ a: 1, b: '2', c: 3}, x => typeof x === 'string')
-console.log(falsyValues);
+console.log(toFixed2(2.12355,3))
